@@ -14,3 +14,13 @@ Password found: apple123
 Attempts: 234
 Time elapsed: 12 ms
 Attempts per second: 19500
+
+## Benchmark (reproducibility)
+
+Tested on a local machine (not included in repo) with a 1,000,000-word dictionary.
+
+- Hardware: Intel i7-11800H (8 cores / 16 threads), 16 GB RAM  
+- OS: Windows 11
+- Measurement: 3 runs, first run discarded, reported median.  
+- Result: **~1.0e7 attempts/sec** (measured Oct 27, 2025).  
+- Notes: CPU governor set to `performance`. Wordlist not published for size/licensing reasons.
