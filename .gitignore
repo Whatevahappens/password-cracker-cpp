@@ -1,7 +1,12 @@
+# Build artifacts
 *.o
 *.exe
-*.obj
+
+# IDE/project files
 *.dev
 *.layout
-*.bak
+
+# Optional: other temporary files
+*.log
 *.tmp
+*.bak
